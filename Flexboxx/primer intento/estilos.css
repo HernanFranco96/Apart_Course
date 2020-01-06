@@ -1,0 +1,108 @@
+
+.contenedor{
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+    padding: 10px;
+    border: 10px solid #2C3E50;
+    margin: 20px;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; /*Caja flexible*/
+
+    /*
+        row: row es filas y columnas.
+        row-reverse: el primer elemento comienza de derecha a izquierda.
+        column: coloca los elementos en columna.
+        column-reverse: coloca los elementos en columna pero de abajo hacia arriba.
+    */
+    flex-direction: row;
+
+    /*
+        wrap: Si el ancho de los elementos supera al ancho de el contenedor. Coloca los elementos en una fila abajo.
+        no-wrap: Cambia el ancho de todos los elementos para que puedan entrar en una fila dentro del contenedor.   
+        wrap-reverse: Es lo mismo que wrap solo que los elementos empiezan al reves.
+    */
+    flex-wrap: no-wrap; 
+
+    /*
+        Primero iria el ancho "row, column, row-reverse, column-reverse"
+        Segundo iria "wrap, no-wrap, wrap-reverse"
+        Es un atajo.
+    */
+    /*flex-flow: row wrap;*/
+
+    /*
+        flex-start: Coloca los elementos en la parte superior de izquierda a derecha.
+        flex-end: Coloca los elementos en la parte superior de derecha a izquierda.
+        center: Coloca los elementos en el centro.
+        space-around: Distribuye todos los elementos por todo el ancho del contenedor y deja un espacio entre ellos.
+        space-between: Es lo mismo que around solo que no deja espacios al principio y al final del contenedor. 
+    */
+    justify-content: center;
+
+    /*
+        flex-start: Es lo que viene por defecto.
+        flex-end: Baja los elementos verticalmente.
+        center: Centra los elementos verticalmente.
+        stretch: Los hace abarcar el 100 % de la altura.
+        baseline: Posiciona todos los elementos derecho.
+    */
+    align-items: center;
+
+    /*
+        align-content recibe lo mismo que align-items. La diferencia es que sirve para trabajar con varias filas. Como cuando usamos wrap.
+        center: Centra verticalmente todas las filas.
+        flex-end: Baja todas las filas.
+        space-between: Deja un espaciado entre las filas, excepto top y bottom.
+        space-around: Deja un espaciado entre las filas.
+    */
+    /* align-content: center ; */
+
+}
+
+.elemento{
+
+    /*
+        Aumenta el width de los elementos para que abarquen el 100%. 
+        Segun el numero que le ingresemos sera la cantidad de veces que los elementos va a crecer en proporcion a los demas.
+    */
+    flex-grow: 1; 
+
+    /*
+        Es lo contrario a flex-grow
+    */
+    flex-shrink: 1;
+
+    /*
+        flex equivale a flex-grow y flex-shrink, y hasta flex-basis
+        flex:1 1 50px
+    */
+    flex:1; 
+
+    /*
+        Esto le da el orden en la fila al elemento.
+    */
+    order: 1;
+
+    color: #fff;
+    margin: 5px;
+    flex-basis: 50px; /*Es un sinonimo de width, la diferencia es que es dinamica*/
+    height: 50px;
+    background-color: #E67E22;
+    text-align: center;
+}
+
+.elemento2{
+
+    /*
+        flex-start: El elemento se coloca arriba.
+        flex-end: El elementos se coloca abajo
+        stretch: Abarca el 100% del ancho
+        center: Centra el elemento
+        baseline: coloca en linea.
+    */
+    align-self: stretch;
+    height: auto;
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("font.jpg");
+}
+main{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+}
+form{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border: 3px #1F1535 solid;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, .4);
+}
+#nombre{
+    width: 70%;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    text-align: center;
+}
+#contraseña{
+    width: 70%;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    text-align: center;
+}
+#boton{
+    width: 70%;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 8px;
+    margin-top: 30px;
+    background-color: #6C4CAC;
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+#boton:hover{
+    background-color: #3D2278;
+}
+span{
+    display:block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+#aceptado{
+    width: 100%;
+    margin-top: 30px;
+    font-size: 25px;
+    color: green;
+    font: bold;
+}
+#rechazado{
+    width: 100%;
+    margin-top: 30px;
+    font-size: 25px;
+    color: red;
+    font: bold;
+}
+
