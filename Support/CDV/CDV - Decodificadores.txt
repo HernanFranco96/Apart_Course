@@ -1,0 +1,28 @@
+
+[ENTRADAS]
+
+ANT-IN: SD Y HD Fortis
+
+RF-IN: HD Crenova
+
+[TARJETAS]
+
+SD: Tarjeta adelante
+
+HD Fortis: Tarjeta atras
+
+HD Crenova: Tarjeta de costado (El numero del chip debe coincidir con el numero del cliente)
+
+[ESPEJOS]
+
+LOOP-OUT - ANT-IN
+
+RF-OUT - RF-IN
+
+[MENU]
+
+SD - SEARCH CHANNEL - Imagen de un mundo
+
+HD Fortis -  SYSTEM TOOLS - Imagen de una lupa
+
+HD Crenova - Editar canales - algo simple

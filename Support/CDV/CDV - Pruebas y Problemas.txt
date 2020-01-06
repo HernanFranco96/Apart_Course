@@ -1,0 +1,48 @@
+[PRUEBAS BASICAS]
+
+1 - Quitar el cable de la antena detras del deco y volverlo a conectar y en la entrada que diga "ANT-IN / RF-IN" (varia segun el deco)
+
+2 - Quitar tarjeta Smartcard y confirmar que el numero ID de la tarjeta y del cliente sean los mismos en el CRM.
+
+3 - Desenchufar el deco del toma corriente, esperar 1 minuto y volverlo a enchufar.
+
+4 - Quitar la Smartcard. Ponerla de forma incorrecta y luego sacarle y insertarla correctamente.
+
+5 - Restaurar de Fabrica:
+	* Deco SD: Menu - Tool - Ajuste de fabrica - Ingresar PIN 0000
+	* HD Fortis: Menu - Setting - Instalacion - Recuperar sistema - Restaurar Sistema valor de Fabrica.
+		- Si luego de completar la restauracion de fabrica tira un error de resolucion apretar varias veces el 		boton "Mute" o "resolution".
+		- Si esto no funciona, debe ser por el cable AV o HDMI.
+		- HDMI: Presionar 5 segundos el boton "Mute" o "Resolution". Cuando se ajusta la pantalla precionar el 		boton menu rapido.
+		- AV: Presionar 5 segundos "Mute" o "Resolution". Cuando se ajusta la pantalla precionar el boton menu 				rapido.
+	*Crenova: Menu - Sistema - Reset de fabrica - configuracion de fabrica.
+		-Si tarda mas de cierto tiempo desenchufar y enchufar el deco nuevamente.
+		-Una ves restaurado se va a instalar. Elegir idioma español, apretar el boton azul para configurar la hora 		- inicio - Canal RF Inicial (modificar al numero 32) -  RF Final (modificar al numero 50)
+		- Antes de finalizar la instalacion fijarse que tenga 105 canales de tv y 4 radios si es asi guardar. 
+
+[SIN SEÑAL / MALA SEÑAL]
+
+1 - Pruebas basicas
+
+2 - Fijarse que los cables esten bien conectados.
+
+3 - Con el control remoto apretar el boton "input" o "sourse" para cambiar a HDMI u Video.
+
+[No Acceso]
+
+1 - El cliente fue suspendido.
+
+2 - El Decodificador no tiene acceso. Si no existe el apariamiento entre el numero de la tarjeta smartcard y el numero del cliente. Enviar ticket o email a Luis chabarria, el encargado.
+
+[Cambio de Smarcard]
+
+1 - No coincide en CRM
+
+2 - En este caso se llama o se comunica por otro medio con Sonia para saber de quien es la tarjeta.
+
+[Audio]
+
+SD: boton verde : Modifica el audio.
+HD Fortis: boton amarillo: Modifica el audio.
+HD Crenova: boton rojo: Modifica el audio.
+
