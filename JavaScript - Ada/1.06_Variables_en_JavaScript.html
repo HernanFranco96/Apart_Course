@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Variables</title>
+</head>
+<body>
+    <p id="parrafo_1"></p>
+    <p id="parrafo_2"></p>
+    <p id="parrafo_3"></p>
+    <script>
+    /*
+        Variables en JavaScript
+            -Identificadores unicos.
+            -Recomendable utilizar identificadores descriptivos
+            -Empiezan por letra, $, _ y siguen con letra, numero $ o _
+            -Pueden contener cadenas ("",'') y numero (enteros o decimales)
+            -Son sensibles a las mayusculas (nombre != NOMBRE != Nombre)
+            -No pueden utilizarse palabras reservadas
+    */       
+
+    var nombre = "Hernan", apellido = "Franco", pais = "Argentina";
+    var persona = "Nombre: " + nombre + " Apellido: " + apellido + " Pais: " + pais;
+    document.getElementById("parrafo_1").innerHTML = persona;
+    document.getElementById("parrafo_2").innerHTML = apellido;
+
+    
+    </script>
+   
+</body>
+</html>

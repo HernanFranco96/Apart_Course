@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sentencias en JavaScript</title>
+</head>
+<body>
+    <h1>Sentencias en JavaScript</h1>
+    <p>Es recomendable utilizar ; al final de cada sentencia</p>
+    <p>Podemos escribir varias sentencias en una misma linea. Separandolas por ;</p>
+    <script>
+        var a = 1; 
+        var b = 2; 
+        var c = b + a; 
+    </script>
+    <h2>Espacio en blancos</h2>
+    <p>Los multiples espacios en blanco se ignoran.</p>
+    <p id="nombre"></p>
+    <script>
+        var nombre = "Hernan";
+        document.getElementById("nombre").innerHTML = nombre;
+    </script>
+    <h2>Lineas de mas de 80 caracteres</h2>
+    <p>Es recomendable dividir la linea despues de un operador</p>
+    <p id="apellido"></p>
+    <script>
+        var apellido =
+            "Franco";
+        document.getElementById("apellido").innerHTML = apellido;
+    </script>
+    <h2>Bloques de codigo</h2>
+    <p>Se agrupan entre llaves</p>
+    <p>Se utilizan en funciones, bucles, condiciones, etc</p>
+    <script>
+        function hola()
+        {
+            alert("hola");
+            alert(" caracola");
+        }
+
+        hola();
+    </script>
+    <h2>Palabras reservadas (keywords)</h2>
+    <ul>
+        <li>break</li>
+        <li>continue</li>
+        <li>switch</li>
+        <li>for</li>
+        <li>do while</li>
+        <li>if else</li>
+        <li>debugger</li>
+        <li>try catch</li>
+        <li>var</li>
+        <li>function</li>
+        <li>return</li>
+    </ul>
+</body>
+</html>
