@@ -6,14 +6,18 @@
 
 3 - Desenchufar el deco del toma corriente, esperar 1 minuto y volverlo a enchufar.
 
-4 - Quitar la Smartcard. Ponerla de forma incorrecta y luego sacarle y insertarla correctamente.
+4 - Quitar la Smartcard. Ponerla de forma incorrecta (Tarjeta invalida) y luego sacarla y insertarla correctamente.
+
+[CANALES]
+	105 canales de tv
+	4 de radio
 
 5 - Restaurar de Fabrica:
 	* Deco SD: Menu - Tool - Ajuste de fabrica - Ingresar PIN 0000
 	* HD Fortis: Menu - Setting - Instalacion - Recuperar sistema - Restaurar Sistema valor de Fabrica.
-		- Si luego de completar la restauracion de fabrica tira un error de resolucion apretar varias veces el 		boton "Mute" o "resolution".
+		- Si luego de completar la restauracion de fabrica tira un error de resolucion apretar varias veces el 				boton "Mute" o "resolution".
 		- Si esto no funciona, debe ser por el cable AV o HDMI.
-		- HDMI: Presionar 5 segundos el boton "Mute" o "Resolution". Cuando se ajusta la pantalla precionar el 		boton menu rapido.
+		- HDMI: Presionar 5 segundos el boton "Mute" o "Resolution". Cuando se ajusta la pantalla precionar el 				boton menu rapido.
 		- AV: Presionar 5 segundos "Mute" o "Resolution". Cuando se ajusta la pantalla precionar el boton menu 				rapido.
 	*Crenova: Menu - Sistema - Reset de fabrica - configuracion de fabrica.
 		-Si tarda mas de cierto tiempo desenchufar y enchufar el deco nuevamente.
@@ -41,8 +45,12 @@
 2 - En este caso se llama o se comunica por otro medio con Sonia para saber de quien es la tarjeta.
 
 [Audio]
-
 SD: boton verde : Modifica el audio.
 HD Fortis: boton amarillo: Modifica el audio.
 HD Crenova: boton rojo: Modifica el audio.
 
+[Fijarse la señal]
+
+	Crenova: EDITAR CANALES - Instalacion - Busqueda automatica Terrestre 
+		- Canal RF Inicial (modificar al numero 32) -  RF Final (modificar al numero 50) - Start
+	HD Fortis: INSTALACION - Terrestrial Search - nivel y calidad
