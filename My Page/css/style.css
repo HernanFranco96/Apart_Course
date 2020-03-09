@@ -4,10 +4,26 @@
 }
 
 body{
+	background-image: url("../img/img_2.jpg");
+	background-size: 1000px 900px;
 }
 
 .cajaPadre{
-	max-width: 1000px;
-	width: 80%;
-	margin: 50px 100px;
+	max-width: 500px;
+	width: 20%;
+	height: 100px;
+	margin: 200px auto;
+	background-color: rgba(2,2,2,.5);
+}
+
+.cajaPadre > .caja{
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+	padding: 10px;
+}	
+
+.cajaPadre > .caja a{
+	text-decoration: none;
+	color: white;
 }
