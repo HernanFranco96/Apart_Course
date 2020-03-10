@@ -8,22 +8,60 @@ body{
 	background-size: 1000px 900px;
 }
 
+
 .cajaPadre{
 	max-width: 500px;
 	width: 20%;
-	height: 100px;
+	height: auto;
 	margin: 200px auto;
-	background-color: rgba(2,2,2,.5);
+	border-left: 2px dashed white;
+	border-right: 2px dashed white;
+}
+
+h2{
+	color: white;
+	width: 100%;
+	height: 50px;
+	margin: auto;
+	text-align: center;
 }
 
 .cajaPadre > .caja{
 	width: 100%;
-	margin: 10px auto;
+	margin: 20px auto;
 	text-align: center;
-	padding: 10px;
 }	
 
 .cajaPadre > .caja a{
 	text-decoration: none;
 	color: white;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+
+.cajaPadre > .caja a:hover{
+	transition: 0.5s;
+	background-color: #566573;
+}
+
+.cajaPadre > .boton{
+	width: 50%;
+	margin-top: 30px;
+	float: left;
+}
+
+.cajaPadre > .boton input{
+	width: 100%;
+	background: rgba(0,0,0,.8);
+	border:none;
+	border-radius: 2px;
+	color: white;
+	padding: 10px;
+}
+
+.cajaPadre > .boton input:hover{
+	transition: 0.5s;
+	background-color: #566573;
+	cursor: pointer;
 }
