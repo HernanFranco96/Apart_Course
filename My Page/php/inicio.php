@@ -4,16 +4,20 @@
 	<title>My Page</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
+<?php include("conexion.php"); ?>
 <body>
 	<div class="cajaPadre">
 		<h2>DESOBES</h2>
+		<?php
 
+			$consulta = "SELECT * FROM betta WHERE 1";
+                                                                      
+			foreach($conection->query($consulta) as $value){
+		?>
 		<div class="caja">
-			<a href="#">1 - 25/02/2020</a>
+			<a href="#" ><?php echo "Desobe #" . $value['id'];?></a>
 		</div>
-		<div class="caja">
-			<a href="#">2 - 01/03/2020</a>
-		</div>
+		<?php } ?>
 		<div class="boton">
 			<a href="agregar.php" class="input">AGREGAR</a>
 		</div>
@@ -21,9 +25,6 @@
 			<a href="eliminar.php" class="input">ELIMINAR</a>
 		</div>
 	</div>
-	<?php
-		include("conexion.php");
-	?>
 </body>
 </html>
 
