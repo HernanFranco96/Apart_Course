@@ -5,9 +5,6 @@
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-<?php
-	include("conexion.php");
-?>
 	<div class="cajaPadre">
 		<h2>DESOBES</h2>
 
@@ -21,9 +18,13 @@
 			<a href="agregar.php" class="input">AGREGAR</a>
 		</div>
 		<div class="boton">
-			<a href="#" class="input">ELIMINAR</a>
+			<a href="eliminar.php" class="input">ELIMINAR</a>
 		</div>
 	</div>
+	<?php
+		include("conexion.php");
+	?>
 </body>
+</html>
 
 	
