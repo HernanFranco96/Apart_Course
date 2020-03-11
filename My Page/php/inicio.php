@@ -2,9 +2,12 @@
 <html>
 <head>
 	<title>My Page</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
+<?php
+	include("conexion.php");
+?>
 	<div class="cajaPadre">
 		<h2>DESOBES</h2>
 
@@ -15,11 +18,12 @@
 			<a href="#">2 - 01/03/2020</a>
 		</div>
 		<div class="boton">
-			<input type="button" name="agregar" value="AGREGAR">
+			<a href="agregar.php" class="input">AGREGAR</a>
 		</div>
 		<div class="boton">
-			<input type="button" name="eliminar" value="ELIMINAR">
+			<a href="#" class="input">ELIMINAR</a>
 		</div>
 	</div>
 </body>
-</html>
+
+	

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 *{
 	padding: 0px;
 	margin: 0px;
@@ -6,6 +8,7 @@
 body{
 	background-image: url("../img/img_2.jpg");
 	background-size: 1000px 900px;
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -49,16 +52,67 @@ h2{
 	float: left;
 }
 
-.cajaPadre > .boton input{
-	width: 100%;
-	background: rgba(0,0,0,.8);
-	border:none;
-	border-radius: 2px;
+.cajaPadre > .boton .input{
+	width: 80%;
+	background: rgba(0,0,0,.5);
+	border-radius: 4px;
 	color: white;
 	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
 }
 
-.cajaPadre > .boton input:hover{
+.cajaPadre > .boton a:hover{
+	transition: 0.5s;
+	background-color: #566573;
+	cursor: pointer;
+}
+
+/****************************** AGREGAR.PHP **********************************/
+
+.cajaAgregar{
+	max-width: 1000px;
+	width: 50%;
+	height: 400px;
+	margin: 80px auto;
+	color: white;
+}
+
+.cajaAgregar > form{
+	width: 90%;
+	height: 60%;
+	margin: auto;
+}
+
+.cajaAgregar > form span{
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+}
+
+.cajaAgregar > form input{
+	width: 30%;
+	margin: 3px auto;
+	border: none;
+	border-radius: 4px;
+	padding: 8px;
+	display: block;
+}
+
+.cajaAgregar > form .botonAgregar{
+	width: 20%;
+	background-color: none;
+	border: none;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,.5);
+	color: white;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.cajaAgregar > form .botonAgregar:hover{
 	transition: 0.5s;
 	background-color: #566573;
 	cursor: pointer;
