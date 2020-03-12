@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="cajaAgregar">
-	<h2>REGISTRAR NUEVO DESOBE</h2>
+	<h1>REGISTRAR NUEVO DESOBE</h1>
 	<form action="#" method="post" accept-charset="utf-8">
 		<div>
 			<span>Macho:</span>
@@ -34,6 +34,18 @@
 		</div>
 	</form>
 </div>
+	<style>
+	    h2{
+	        color: white;
+	        width: 250px;
+	        font-size: 15px;
+	        margin: 30px auto;
+	        padding: 5px;
+	        text-align: center;
+	        border-radius: 3px;
+	        background-color: #C20C75
+	    }
+	</style>
 	<?php
 	include("conexion.php");	
 
@@ -48,10 +60,10 @@
 		$resultado = $conection->query($insert);                                                                          
 		if($resultado)
 		{
-			echo "<h1>REGISTRADO</h1>";
+			echo "<h2>REGISTRADO</h2>";
 		}
 		else
-			echo "<h1>ERROR</h1>";
+			echo "<h2>ERROR</h2>";
 
 
 	}
