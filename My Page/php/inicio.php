@@ -7,23 +7,11 @@
 <?php include("conexion.php"); ?>
 <body>
 	<div class="cajaPadre">
-		<h2>DESOBES</h2>
-		<?php
-
-			$consulta = "SELECT * FROM betta WHERE 1";
-                                                                      
-			foreach($conection->query($consulta) as $value){
-		?>
-		<div class="caja">
-			<a href="#" ><?php echo "Desobe #" . $value['id'];?></a>
-		</div>
-		<?php } ?>
-		<div class="boton">
-			<a href="agregar.php" class="input">AGREGAR</a>
-		</div>
-		<div class="boton">
-			<a href="eliminar.php" class="input">ELIMINAR</a>
-		</div>
+		<ul>
+			<li class="boton"><a href="agregar.php" class="input">REGISTRAR</a></li>
+			<li class="boton"><a href="eliminar.php" class="input">ELIMINAR</a></li>
+			<li class="boton"><a href="listar.php" class="input">LISTA</a></li>
+		</ul>
 	</div>
 </body>
 </html>
