@@ -30,7 +30,7 @@
 			<?php } ?>
 				<input type="text" name="numero" class="cajaNumero"><br>
 				<input class="botonVolver" type="submit" value="Eliminar" name="borrar">
-				<input class="botonVolver" type="button" value="Volver" onclick="location='/My_Page/php/inicio.php'">
+				<input class="botonVolver" type="button" value="Volver" onclick="location='/My_Page/php/index.php'">
 			</div>
 		</form>
 	</div>
