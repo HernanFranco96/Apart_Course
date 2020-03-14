@@ -1,48 +1,48 @@
 <?php
-	public class Pez{
+	class Pez{
 
 		private $Cod = '';
 		private $Raza = '';
 		private $Alias = '';
 		private $Edad = '';
 
-		public void setCodigo(string $param){
+		function setCodigo(string $param){
 			if(!empty($param)){
 				$Cod = $param;
 			}
 		}
 
-		public string getCodigo(){
+		function getCodigo(){
 			return $Cod;
 		}
 
-		public void setRaza(string $param){
+		function setRaza(string $param){
 			if(!empty($param)){
 				$Raza = $param;
 			}
 		}
 
-		public string getRaza(){
+		function getRaza(){
 			return $Raza;
 		}
 
-		public void setAlias(string $param){
+		function setAlias(string $param){
 			if(!empty($param)){
 				$Alias = $param;
 			}
 		}
 
-		public string getAlias(){
+		function getAlias(){
 			return $Alias;
 		}
 
-		public void setEdad(string $param){
+		function setEdad(string $param){
 			if(!empty($param)){
 				$Edad = $param;
 			}
 		}
 
-		public string getEdad(){
+		function getEdad(){
 			return $Edad;
 		}
 	}
