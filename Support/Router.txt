@@ -1,0 +1,21 @@
+[TP-LINK]
+
+1 WAN (azul)
+
+4 LAN (amarillo)
+
+192.168.0.1
+
+User: admin / admin
+Clave: admin / 7pl1nk
+
+CAMBIO DE CONTRASEÑA RED WIFI:
+
+WIRELESS - WIRELESS SECURITY - WIRELESS PASSWORD (ingresar contraseña) - SAVE
+
+
+[CAMBIUM]
+
+192.168.11.1
+
+Clave: 12345678

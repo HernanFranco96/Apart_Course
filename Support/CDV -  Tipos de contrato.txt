@@ -1,0 +1,9 @@
+Activo: Cliente al dia.
+
+Espera: Esperando a que abone / Esperando a ser dado de alta (Derivar al 411 - administracion)
+
+Borrador: Acaban de instalar el deco al cliente. Y espera a ser activado.
+
+Cancelado: Cliente dado de baja.
+
+

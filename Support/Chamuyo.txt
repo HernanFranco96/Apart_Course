@@ -1,0 +1,34 @@
+
+
+[SM BIEN]
+Estimado cliente,
+ Le informamos que hemos estado verificando su antena y no encontramos ningún problema con respecto al funcionamiento/configuración de la misma, por lo cual le sugerimos que compruebe el servicio nuevamente y nos informe si presenta algún inconveniente.
+
+Quedamos a su disposición,
+Saluda atte.
+Equipo de Soporte Técnico TPP.
+
+
+[SERVICE DENTRO DEL PLAZO]
+Estimado cliente.
+                           Según lo acordado telefónicamente. Aguarde a ser llamado por el técnico dentro del plazo de 72 horas hábiles. 
+Quedamos como siempre a su disposición.
+Saluda atte.,
+TPP S.A.
+
+
+[RECLAMO PASADO A OTRO SECTOR]
+Estimado cliente.
+                           Su reclamo fue asignado al sector correspondiente. Breve mente estarán trabajando en su reclamo. Le pedimos que pruebe el servicio y que si nota alguna mejora no los haga saber. 
+Quedamos como siempre a su disposición.
+Saluda atte.,
+TPP S.A.
+
+[SERVICE]
+Estimado cliente:
+                           Conforme a lo hablado telefónicamente, le informamos que ya tiene un pedido de service en curso.  Damos por sentado que este reclamo ha sido respondido y a continuación deberá aguardar el llamado del coordinador local para proceder a la visita técnica correspondiente.
+
+Quedamos como siempre, a su disposición.
+Atte
+TPP S.A
+
